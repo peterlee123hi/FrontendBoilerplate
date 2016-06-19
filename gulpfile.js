@@ -5,17 +5,6 @@ var minify = require('gulp-minify-css');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 
-gulp.task('sass-vendor', function() {
-    var scssStream = gulp.src('sass/vendor/vendor.scss')
-        .pipe(sass())
-        .pipe(concat('vendor.css'))
-        .pipe(minify())
-        .pipe(gulp.dest('css'))
-        .pipe(reload({ stream:true }));
-
-    return scssStream;
-});
-
 gulp.task('sass', function() {
     var scssStream = gulp.src('sass/*.scss')
         .pipe(sass())
@@ -27,7 +16,7 @@ gulp.task('sass', function() {
     return scssStream;
 });
 
-gulp.task('serve', ['sass-vendor', 'sass'], function() {
+gulp.task('serve', ['sass'], function() {
     browserSync.init({
         server: true,
         port: 8080

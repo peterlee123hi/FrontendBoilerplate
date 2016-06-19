@@ -1,4 +1,4 @@
-# FrontendBoilerplate
+# Frontend Boilerplate
 A boilerplate for a front-end website.
 
 ## How to Install
@@ -22,11 +22,12 @@ A boilerplate for a front-end website.
 - [Animate.css](https://daneden.github.io/animate.css/)
 - [Wow.js](http://mynameismatthieu.com/WOW/docs.html)
 - [Parallax.js](https://github.com/pixelcog/parallax.js)
-- [Pace.js](http://github.hubspot.com/pace/docs/welcome/)
+- [Pace](http://github.hubspot.com/pace/docs/welcome/)
 
 ## Resources
 - [HTML & CSS Style Guide](http://codeguide.co/)
 
 ### TODO
-- [ ] Check for missing or unnecessary imports.
+- [ ] Check for missing, broken, or unnecessary imports.
 - [ ] Check for bloat.
+- [ ] Install templating language like Handlebars.
