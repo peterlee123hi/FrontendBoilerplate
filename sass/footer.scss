@@ -1,0 +1,22 @@
+footer {
+  @include padding(2em null 2em null);
+
+  li {
+    float: left;
+    @include margin(null 1.5em 1.5em null);
+
+    a {
+      color: $secondary-color;
+    }
+  }
+
+  p {
+    color: $primary-color;
+    clear: left;
+    margin-bottom: 0;
+
+    a {
+      color: $secondary-color;
+    }
+  }
+}

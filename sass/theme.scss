@@ -1,10 +1,26 @@
 @import 'bourbon';
 
 /* Global Variables */
+$raleway: 'Raleway', sans-serif;
+$primary-color: #2c3e50;
+$secondary-color: #00b3fe;
 
-/* Import Custom Styles */
+/* Custom Styles */
+@import './parallax.scss';
+@import './service.scss';
+@import './footer.scss';
 
 /* Global Styles */
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  @include transform(translateY(-50%));
+}
+
+.centered {
+  text-align: center;
+}
+
 body > :not(.pace),body:before,body:after {
   -webkit-transition: opacity .4s ease-in-out;
   -moz-transition: opacity .4s ease-in-out;
