@@ -28,6 +28,22 @@ A boilerplate for a front-end website.
 ## Resources
 - [HTML & CSS Style Guide](http://codeguide.co/)
 
+## Codrop Reference
+None of Codrops' animations have been included by default because of possible conflicts with Bootstrap and other animation plugins already installed.
+
+- [Page Transitions](http://tympanus.net/Development/PageTransitions/)
+- [Sidebar Transitions](http://tympanus.net/Development/SidebarTransitions/)
+- [Image Hover Effects](http://tympanus.net/Development/HoverEffectIdeas/)
+- [Notification Effects](http://tympanus.net/Development/NotificationStyles/)
+- [Modal Window Effects](http://tympanus.net/Development/ModalWindowEffects/)
+- [Text Input Effects](http://tympanus.net/Development/TextInputEffects/)
+- [Creative Button Effects](http://tympanus.net/Development/CreativeButtons/)
+- [Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/)
+- [Icon Hover Effects](http://tympanus.net/Development/IconHoverEffects/)
+- [Page Loading Effects](http://tympanus.net/Development/PageLoadingEffects/)
+- [Drop Down Effects](http://tympanus.net/Development/SimpleDropDownEffects/)
+- [Click Effects](http://tympanus.net/Development/ClickEffects/)
+
 ### TODO
 - [ ] Check for missing, broken, or unnecessary imports.
 - [ ] Check for bloat.
