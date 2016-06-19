@@ -1,0 +1,1 @@
+body:after,body:before,body>:not(.pace){-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out}body:not(.pace-done):after,body:not(.pace-done):before,body:not(.pace-done)>:not(.pace){opacity:0}

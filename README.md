@@ -7,9 +7,9 @@ A boilerplate for a front-end website.
 
 ## Usage
 - Run "gulp serve" for hot code reload.
-- Add custom Sass files in the sass folder.
+- Add custom Sass files in the sass folder, and import into theme.scss.
   - Compile Sass with "gulp sass".
-- Add partial HTML templates in the partials folder.
+- Add partial HTML templates in the partials folder, which should be created in the root folder.
   - To include the partial, add the path to js/partials.js with a link to the div in index.html. 
 
 ## Frameworks Installed
