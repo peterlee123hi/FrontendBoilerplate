@@ -20,6 +20,7 @@ A boilerplate for a front-end website.
 ## Addons
 - [Font Awesome](http://fontawesome.io/examples/)
 - [Animate.css](https://daneden.github.io/animate.css/)
+- [Hover.css](http://ianlunn.co.uk/articles/hover-css-tutorial-introduction/)
 - [Wow.js](http://mynameismatthieu.com/WOW/docs.html)
 - [Parallax.js](https://github.com/pixelcog/parallax.js)
 - [Pace](http://github.hubspot.com/pace/docs/welcome/)
