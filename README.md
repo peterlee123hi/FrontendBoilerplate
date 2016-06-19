@@ -8,7 +8,9 @@ A boilerplate for a front-end website.
 ## Usage
 - Run "gulp serve" for hot code reload.
 - Add custom Sass files in the sass folder.
-- Compile Sass with "gulp sass".
+  - Compile Sass with "gulp sass".
+- Add partial HTML templates in the partials folder.
+  - To include the partial, add the path to js/partials.js with a link to the div in index.html. 
 
 ## Frameworks Installed
 - [Bootstrap 3](http://getbootstrap.com/)
@@ -45,7 +47,3 @@ None of Codrops' animations have been included by default because of possible co
 - [Drop Down Effects](http://tympanus.net/Development/SimpleDropDownEffects/)
 - [Click Effects](http://tympanus.net/Development/ClickEffects/)
 
-### TODO
-- [ ] Check for missing, broken, or unnecessary imports.
-- [ ] Check for bloat.
-- [ ] Install templating language like Handlebars.
