@@ -14,6 +14,7 @@ A boilerplate for a front-end website.
 - [Bootstrap 3](http://getbootstrap.com/)
 - [jQuery](https://api.jquery.com/)
 - [Sass](http://sass-lang.com/guide)
+- [Bourbon](http://bourbon.io/docs/)
 - [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 - [Browser-sync](https://www.browsersync.io/docs/gulp)
 
