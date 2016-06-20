@@ -1,5 +1,6 @@
 footer {
   @include padding(2em null 2em null);
+  background-color: $primary-color;
 
   li {
     float: left;
@@ -11,7 +12,7 @@ footer {
   }
 
   p {
-    color: $primary-color;
+    color: white;
     clear: left;
     margin-bottom: 0;
 

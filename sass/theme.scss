@@ -8,6 +8,8 @@ $secondary-color: #00b3fe;
 /* Custom Styles */
 @import './parallax.scss';
 @import './service.scss';
+@import './portfolio.scss';
+@import './team.scss';
 @import './footer.scss';
 
 /* Global Styles */
@@ -21,6 +23,10 @@ $secondary-color: #00b3fe;
   text-align: center;
 }
 
+.align-right {
+  text-align: right;
+}
+
 body > :not(.pace),body:before,body:after {
   -webkit-transition: opacity .4s ease-in-out;
   -moz-transition: opacity .4s ease-in-out;
@@ -31,4 +37,9 @@ body > :not(.pace),body:before,body:after {
 
 body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-done):after {
   opacity: 0;
+}
+
+.container-full {
+  width: 100%;
+  position: relative;
 }
