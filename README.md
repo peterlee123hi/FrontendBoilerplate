@@ -1,5 +1,5 @@
 # Frontend Boilerplate
-A boilerplate for a front-end website.
+A boilerplate for a front-end website. **NOTE: This branch is out-dated and shouldn't be used! Clone the boilerplate branch for the actual boilerplate.**
 
 ## How to Install
 1. Clone the repository.
