@@ -7,13 +7,13 @@ var bourbon = require('node-bourbon');
 var reload = browserSync.reload;
 
 gulp.task('sass', function() {
-    var scssStream = gulp.src('sass/theme.scss')
+    var scssStream = gulp.src('assets/sass/theme.scss')
         .pipe(sass({
             includePaths: bourbon.includePaths
         }))
         .pipe(concat('style.css'))
         .pipe(minify())
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('assets/css'))
         .pipe(reload({ stream:true }));
 
     return scssStream;
@@ -25,7 +25,7 @@ gulp.task('serve', ['sass'], function() {
         port: 8080
     });
 
-    gulp.watch('sass/*.scss', ['sass']);
+    gulp.watch('assets/sass/*.scss', ['sass']);
     gulp.watch('**/*.html').on('change', reload);
     gulp.watch('**/*.js').on('change', reload);
 });

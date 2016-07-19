@@ -1,6 +1,9 @@
 # Frontend Boilerplate
 A boilerplate for a front-end website.
 
+## How to Host
+- Use Github Pages. The procedure isn't any different.
+
 ## How to Install
 1. Clone the repository.
 2. Run "npm install".
@@ -9,8 +12,6 @@ A boilerplate for a front-end website.
 - Run "gulp serve" for hot code reload.
 - Add custom Sass files in the sass folder, and import into theme.scss.
   - Compile Sass with "gulp sass".
-- Add partial HTML templates in the partials folder, which should be created in the root folder.
-  - To include the partial, add the path to js/partials.js with a link to the div in index.html. 
 
 ## Frameworks Installed
 - [Bootstrap 3](http://getbootstrap.com/)
@@ -24,7 +25,8 @@ A boilerplate for a front-end website.
 - [Font Awesome](http://fontawesome.io/examples/)
 - [Animate.css](https://daneden.github.io/animate.css/)
 - [Hover.css](http://ianlunn.co.uk/articles/hover-css-tutorial-introduction/)
-- [Wow.js](http://mynameismatthieu.com/WOW/docs.html)
+- [Velocity.js](http://velocityjs.org/)
+- [Particles.js](http://vincentgarreau.com/particles.js/)
 - [Parallax.js](https://github.com/pixelcog/parallax.js)
 - [Pace](http://github.hubspot.com/pace/docs/welcome/)
 
@@ -46,4 +48,3 @@ None of Codrops' animations have been included by default because of possible co
 - [Page Loading Effects](http://tympanus.net/Development/PageLoadingEffects/)
 - [Drop Down Effects](http://tympanus.net/Development/SimpleDropDownEffects/)
 - [Click Effects](http://tympanus.net/Development/ClickEffects/)
-
