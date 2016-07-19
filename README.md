@@ -25,6 +25,7 @@ A boilerplate for a front-end website.
 - [Font Awesome](http://fontawesome.io/examples/)
 - [Animate.css](https://daneden.github.io/animate.css/)
 - [Hover.css](http://ianlunn.co.uk/articles/hover-css-tutorial-introduction/)
+- [Waypoints.js](http://imakewebthings.com/waypoints/)
 - [Velocity.js](http://velocityjs.org/)
 - [Particles.js](http://vincentgarreau.com/particles.js/)
 - [Parallax.js](https://github.com/pixelcog/parallax.js)
